@@ -1,0 +1,34 @@
+Notas Arq. y SOs
+
+Paquetes:
+
+-Linux nos permite actualizar por partes.
+-Repositorio se llama a los servidores que alojan la informacion sobre aplicaciones y actualizaciones
+Paquetes son esos bloques de informacion.
+-Existen manejadores de paquetes. Nosotros utilizaremos Aptitude
+
+Comandos que bajan e instalan paquetes:
+
+RPM	.Deb
+APT	Aptitude 
+YUM	
+
+apt-get Update 
+	check
+	upgrade
+	install mc
+	install mc -f (instala todas las dependencias)
+	install --reinstall mc
+	remove mc (no borra las configuraciones)
+	purge remove mc (borra todo, "purga")
+	clean
+	autoclean (detecta que paquete no esta siendo utilizado y lo remueve)
+	autoremove (borre una app y todo las apps que se instalaron porque esa app necesitaba, dependecia de programas que ya no tengo)
+
+apt-cache search nombrepaquete (busca un paquete)
+	policy mc(toda la data del paquete, de dodne lo saco, que contiene)
+	showpkg mc
+rutas:
+
+var/cache/apt/archives ( --->guarda los paquetes, el instalableç)
+var/lib/apt/list sourcelist
