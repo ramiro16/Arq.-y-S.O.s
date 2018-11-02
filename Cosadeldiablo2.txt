@@ -1,0 +1,16 @@
+git init - inicia el repositorio en nuestra maquina. Inicia un repositorio local
+git status - muestra el estado
+git add . - actualiza al ultimo estado del proyecto
+git commit -m "primer commit" - commitea
+git log
+git clone
+git config --list
+git push origin master
+git diff (para ver las diferencias entre working area y stage area)
+git remote
+git branch (me dice dodne estoy)
+git checkout nuevarama
+git checkout -b otrarama (crea y se para sobre la rama)
+git merge
+
+para subir un proyecto de repositorio web primero hay que subirlo al local
