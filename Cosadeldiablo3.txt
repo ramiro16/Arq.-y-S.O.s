@@ -1,0 +1,13 @@
+procesos y funciones: funcion recibe parametros y los procesos no. hoy no. se modernizaron.
+los procesos son autonomos.
+
+-lo primero que se ejecuta de una pc: La BIOS.
+-segundo, sistema operativo.(todos los SO. necesitan un punto de arranque). en linux podemos configurar esto, mediante "group"
+en windows es "fdisk master noseque record"
+-kernel ---> drivers
+-inicializacion (o init), el primer proceso que se va alojar en la memorira, cuando se ejecuta el init se realiza la planificacion de los procesos
+todos los procesos tienen un numero, el init tiene el numero de proceso 1, es el proceso padre.
+ 
+procesos demonios, son los que corren solos. Que esta haciendo algo constantemente.
+procesos de usuario, los que manejan los usuarios y se pueden manipular.
+si instalo primero linux y despues windows, windows
