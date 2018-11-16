@@ -1,0 +1,12 @@
+Creacion de grupos, administracion de archivos y permisos
+
+(Cada grupo puede tener permisos, puede haber grupos interrelacionados)
+
+identifica quienes somos: id
+inspeccionar archivo que tiene nuestro password: cat /etc/passwd
+						cat /etc/shadow
+useradd -s// para asignar la consola
+	-c// agrega una descripcion al usuario
+
+egrep //dame la linea en la cual encontras esta palabra
+en etc // ls -la|more // me dice si es un directorio y un archivo y cuales son especiales
